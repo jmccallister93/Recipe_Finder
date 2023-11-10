@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Receipe_Finder.RecipeViewPage"
+             Title="Recipe Details">
+    <VerticalStackLayout>
+        <Label 
+            Text="Recipe View Page"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <StackLayout Padding="10">
+            <Label x:Name="titleLabel" FontSize="Large"/>
+            <Label x:Name="ingredientsLabel" />
+            <Label x:Name="instructionsLabel" />
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Receipe_Finder.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Receipe_Finder"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    <ShellContent
+    Title="All Recipes"
+    ContentTemplate="{DataTemplate local:AllReciepesPage}"
+    Route="AllRecipesPage" />
+    <ShellContent
+    Title="Vegan Recipes"
+    ContentTemplate="{DataTemplate local:VeganRecipesPage}"
+    Route="VeganRecipesPAge" />
+    <ShellContent
+    Title="Carnivore Recipes"
+    ContentTemplate="{DataTemplate local:CarnivoreRecipesPage}"
+    Route="CarnivoreRecipesPage" />
+    
+
+</Shell>
+
+
